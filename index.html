@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<script></script>
+	</head>
+	<body
+		style="
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			margin-top: 200px;
+		"
+	>
+		<h2>Uzbekcha Calculator</h2>
+		<table>
+			<tr>
+				<td>
+					<label>Enter salary Amount:</label>
+				</td>
+				<td>
+					<input type="number" name="input1" id="input1" />
+				</td>
+				<td>
+					<input type="number" name="input2" id="input2" />
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="button" value="Calculate" onclick="Calculate()" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>extra money</label>
+				</td>
+				<td>
+					<input type="number" name="output1" id="output1" readonly />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Your Salary</label>
+				</td>
+				<td>
+					<input type="number" name="output2" id="output2" readonly />
+				</td>
+			</tr>
+		</table>
+		<script src="./App.js"></script>
+	</body>
+</html>
